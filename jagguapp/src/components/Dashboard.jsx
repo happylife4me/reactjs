@@ -1,4 +1,8 @@
 import React, { PureComponent } from 'react'
+// import StateFullApp from "./props_states/Statefullapp";
+import ChildParentInvoke from "./parent-child/ChildParentInvoke"
+import RefDemo from "./parent-child/RefDemo"
+import AddColorForm from "./parent-child/AddColorForm"
 
 export default class Dashbord extends PureComponent{
     constructor(props){
@@ -9,6 +13,10 @@ export default class Dashbord extends PureComponent{
     render(){
         return(
             <div>
+                {/* <StateFullApp></StateFullApp> */}
+                <ChildParentInvoke></ChildParentInvoke>
+                <RefDemo></RefDemo>
+                <AddColorForm></AddColorForm>
                 <h3>
                     Put your Business Components tree here
                 </h3>

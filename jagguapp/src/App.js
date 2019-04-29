@@ -11,9 +11,10 @@ function App() {
   return (
     <div className="App">
       <header>
-        <img src={logo} className="App-logo" alt="logo" width="150" height="150" />
-        <h1 className="App-title">React & Redux Tranniong</h1>
-        <Header></Header>
+      <Header></Header>
+        <img src={logo} className="App-logo" alt="logo" width="50" height="50" />
+        <h1 className="App-title">React & Redux Tranning</h1>
+        
         <Login title="Verizon Portal "></Login>
         <Dashboard></Dashboard>
         <Footer year="2019" month="Oct"></Footer>
