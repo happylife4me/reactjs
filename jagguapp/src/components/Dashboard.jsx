@@ -4,6 +4,7 @@ import ChildParentInvoke from "./parent-child/ChildParentInvoke"
 import RefDemo from "./parent-child/RefDemo"
 import AddColorForm from "./parent-child/AddColorForm"
 import Context from  "./context/context-api"
+import CompLifeCycle from "./lifecycle-hock/CompLifeCycle"
 
 export default class Dashbord extends PureComponent{
     constructor(props){
@@ -15,13 +16,15 @@ export default class Dashbord extends PureComponent{
         return(
             <div>
                 {/* <StateFullApp></StateFullApp> */}
-                <ChildParentInvoke></ChildParentInvoke>
+                {/* <ChildParentInvoke></ChildParentInvoke>
                 <RefDemo></RefDemo>
                 <AddColorForm></AddColorForm>
                 <h3>
                     Put your Business Components tree here
                 </h3>
-                <Context></Context>
+                <Context></Context> */}
+
+                <CompLifeCycle></CompLifeCycle>
 
             </div>
         )
