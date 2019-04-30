@@ -6,6 +6,11 @@ import AddColorForm from "./parent-child/AddColorForm"
 import Context from  "./context/context-api"
 import CompLifeCycle from "./lifecycle-hock/CompLifeCycle"
 
+import WeatherComponent from "./lifecycle-hock/WeatherComponent"
+
+import FormApp from "./FormValidastion/FormApp"
+import HOC from "./HOC/HOC"
+
 export default class Dashbord extends PureComponent{
     constructor(props){
         super(props)
@@ -24,9 +29,18 @@ export default class Dashbord extends PureComponent{
                 </h3>
                 <Context></Context> */}
 
-                <CompLifeCycle></CompLifeCycle>
+                {/* <CompLifeCycle></CompLifeCycle> */}
+
+                {/* <WeatherComponent></WeatherComponent> */}
+
+                {/* <FormApp></FormApp> */}
+                
+                <HOC></HOC>
 
             </div>
         )
     }
 }
+
+
+// https://bit.ly/2Gzolg4
