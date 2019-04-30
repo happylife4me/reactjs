@@ -3,6 +3,7 @@ import React, { PureComponent } from 'react'
 import ChildParentInvoke from "./parent-child/ChildParentInvoke"
 import RefDemo from "./parent-child/RefDemo"
 import AddColorForm from "./parent-child/AddColorForm"
+import Context from  "./context/context-api"
 
 export default class Dashbord extends PureComponent{
     constructor(props){
@@ -20,6 +21,8 @@ export default class Dashbord extends PureComponent{
                 <h3>
                     Put your Business Components tree here
                 </h3>
+                <Context></Context>
+
             </div>
         )
     }
